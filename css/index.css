@@ -1,0 +1,66 @@
+* {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  background: #fff url("../img/Codigo.png") top center no-repeat;
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  display: -webkit-box;
+  display: flex;
+}
+input, textarea {
+  background-image: none;
+  border: none;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+}
+.gtvo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+  width: 400px;
+}
+#login .gtvo_l {
+  background: #0071b9;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 26px;
+}
+#login .gtvo_l h4 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+#login .gtvo_l input, #login .gtvo_l textarea {
+  background: #eee;
+  color: #777;
+  padding: 15px 10px;
+  width: 100%;
+  margin: 15px 0;
+}
+#login .gtvo_l input[type="submit"] {
+  background: #2cb6bd;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 100px;
+}
+#login .gtvo_l input[type="submit"]:hover {
+  background: #1fa7bd;
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+    background-size: contain;
+  }
+  .gtvo {
+    margin-top: 9rem;
+  }
+}
